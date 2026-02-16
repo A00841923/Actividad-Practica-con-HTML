@@ -1,0 +1,23 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/A00841923/TC2005B_html_A00841923#readme",
+  "bugs": {
+    "url": "https://github.com/A00841923/TC2005B_html_A00841923/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A00841923/TC2005B_html_A00841923.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
