@@ -4,16 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <style>
+        body{
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .navbar{
+            background-color: #87CEFA !important;
+        }
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Bienvenido</h1>
-    <nav>
-        <ol>
-            <li><a href="">Home</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="tags.html">Tags</a></li>
-            <li><a href="index.html">Sign out</a></li>
-        </ol>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">TC2005B</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="tags.html">Tags</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Sign out</a>
+        </li>
+        </ul>
+    </div>
+    </div>
     </nav>
+    <h1>Bienvenido</h1>
+    <div id="carouselExample" class="carousel slide w-50 mx-auto">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="https://animall.com.mx/cdn/shop/articles/kitten-4611189_1280.webp?v=1758807890" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+        <img src="https://services.meteored.com/img/article/o-meu-gato-chega-sempre-a-casa-a-explicacao-cientifica-para-a-orientacao-quase-infalivel-dos-gatos-1743117268484_1280.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+        <img src="https://animalcity.es/clinica/wp-content/uploads/2021/08/Gatito-tumbado-min.jpg" class="d-block w-100" alt="...">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
 </body>
 </html>

@@ -4,26 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <style>
+        body{
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .navbar{
+            background-color: #87CEFA !important;
+        }
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>My profile</h1>
-    <nav>
-        <ol>
-            <li><a href="menu.html">Home</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="tags.html">Tags</a></li>
-            <li><a href="index.html">Sign out</a></li>
-        </ol>
-    </nav>
-    <nav>
-        <ul>
-            <li>Name: Regina Aguilar Garcia</li>
-            <li>Age: 19</li>
-            <li>Career: ITC</li>
-            <li>I like dogs</li>
-            <li>My favorite color is red</li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">TC2005B</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="tags.html">Tags</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Sign out</a>
+        </li>
         </ul>
+    </div>
+    </div>
     </nav>
-    <img src="https://nupec.com/wp-content/uploads/2020/07/Captura-de-pantalla-2020-07-24-a-las-17.33.44.png" width="500" height="300">
+    <h1>My profile</h1>
+    <div class="container">
+
+    <div class="card text-center mb-4 mx-auto" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Regina Aguilar Garcia</h5>
+            <p class="card-text">Edad: 19 años</p>
+        </div>
+    </div>
+
+    <div class="row text-center">
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="https://cdn-blog.superprof.com/blog_es/wp-content/uploads/2021/02/profe-saber-programar-scaled.jpg" class="card-img-top" alt="computadora">
+                <div class="card-body">
+                    <h5 class="card-title">Mi carrera</h5>
+                    <p class="card-text">Ingeniería en Tecnologías Computacionales</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1" class="card-img-top" alt="perro">
+                <div class="card-body">
+                    <h5 class="card-title">Gustos</h5>
+                    <p class="card-text">Me gustan los perros y la música</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-3">
+            <div class="card h-100">
+                <img src="https://images.unsplash.com/photo-1494256997604-768d1f608cac" class="card-img-top" alt="color">
+                <div class="card-body">
+                    <h5 class="card-title">Mascotas</h5>
+                    <p class="card-text">Algun día me gustaría tener un gato</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
