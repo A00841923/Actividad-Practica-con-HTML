@@ -4,6 +4,7 @@ const password = document.getElementById("password");
 
 btnLogin.addEventListener("click", validarLogin);
 
+// Función para validar el login del usuario
 async function validarLogin(){
     const credentials = {username:username.value, password:password.value};
     const res = await fetch("http://localhost:7000/login", {
